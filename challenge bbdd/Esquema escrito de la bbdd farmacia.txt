@@ -1,0 +1,36 @@
+ESquema de la base de datos de farmacia.
+
+Tabla: Proveedores
+
+ID_Proveedor (Clave primaria)
+Nombre
+Dirección
+Teléfono
+Email
+
+Tabla: Productos
+
+ID_Producto (Clave primaria)
+Nombre
+Tipo
+Precio
+ID_Proveedor (Clave foránea referenciando a Proveedores.ID_Proveedor)
+
+Tabla: Stock
+
+ID_Producto (Clave primaria y foránea referenciando a Productos.ID_Producto)
+Cantidad
+Fecha_Factura
+
+Tabla: Facturas
+
+ID_Factura (Clave primaria)
+Total
+ID_Proveedor (Clave foránea referenciando a Proveedores.ID_Proveedor)
+
+Tabla: Detalle_Factura
+
+ID_Detalle (Clave primaria)
+ID_Factura (Clave foránea referenciando a Facturas.ID_Factura)
+ID_Producto (Clave foránea referenciando a Productos.ID_Producto)
+Cantidad
