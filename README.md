@@ -1,5 +1,5 @@
 # MURDER_SQL_GAME_REPOSITORY
- Repositorio Murder Game The Bridge  
+ Repositorio Team Challenge S7 The Bridge  
  
  Grupo 1:  
  
