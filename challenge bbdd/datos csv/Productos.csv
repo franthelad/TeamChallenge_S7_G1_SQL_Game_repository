@@ -1,11 +1,11 @@
 Id_producto,Nombre,Tipo,Precio,Id_proveedor
-1,Ibuprofeno normon,Especialidad Farmacéutica,"2,37 €",0
-2,Ibuprofeno Cinfa,Especialidad Farmacéutica,"2,37 €",6
-3,Ibuprofeno Sandoz,Especialidad Farmacéutica,"2,37 €",7
-4,Ibuprofeno Kern,Especialidad Farmacéutica,"2,37 €",8
-5,Ibuprofeno Ratiopharm,Especialidad Farmacéutica,"2,37 €",9
-6,Crema Facial SPf 50,Parafarmacia,"6,77 €",10
-7,Gel Ducha Farline 150 ml,Parafarmacia,"4,50€",11
-8,"Huile Prodigeus, 50 ml",Parafarmacia,"11,50€",12
-9,"Hidroferol Ampollas Bebibles, 10 ml",Especialidad Farmacéutica,"12,50€",13
-10,Frenadol Forte,Especialidad Farmacéutica,"5,90€",14
+1,Ibuprofeno normon,Especialidad Farmacéutica,"2,37 ",0
+2,Ibuprofeno Cinfa,Especialidad Farmacéutica,"2,37 ",6
+3,Ibuprofeno Sandoz,Especialidad Farmacéutica,"2,37 ",7
+4,Ibuprofeno Kern,Especialidad Farmacéutica,"2,37 ",8
+5,Ibuprofeno Ratiopharm,Especialidad Farmacéutica,"2,37 ",9
+6,Crema Facial SPf 50,Parafarmacia,"6,77 ",10
+7,Gel Ducha Farline 150 ml,Parafarmacia,"4,50",11
+8,"Huile Prodigeus, 50 ml",Parafarmacia,"11,50",12
+9,"Hidroferol Ampollas Bebibles, 10 ml",Especialidad Farmacéutica,"12,50",13
+10,Frenadol Forte,Especialidad Farmacéutica,"5,90",14
