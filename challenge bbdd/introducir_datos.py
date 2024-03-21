@@ -54,17 +54,35 @@ cursor.executemany('INSERT INTO Stock VALUES (?,?,?)', stock)
 
 # Insertar registros en la tabla Facturas
 facturas = [
-    # Agrega aquí los registros para la tabla Facturas
+    (1, 100 * 2.50, 1, '2024-01-20'),
+    (2, 75 * 3.25, 2, '2024-03-20'),
+    (8, 50 * 4.30, 8, '2022-03-20'),
+    (4, 120 * 1.80, 4, '2023-03-20'),
+    (5, 200 * 5.10, 5, '2023-05-20'),
+    (5, 80 * 2.75, 5, '2024-07-22'),
+    (8, 40 * 3.60, 8, '2021-03-10'),
+    (8, 150 * 4.90, 8, '2019-12-20'),
+    (9, 90 * 6.20, 9, '2024-03-30'),
+    (10, 60 * 7.80, 10, '2024-03-26')
 ]
 
 cursor.executemany('INSERT INTO Facturas VALUES (?,?,?)', facturas)
 
 # Insertar registros en la tabla Detalle_Factura
 detalle_factura = [
-    # Agrega aquí los registros para la tabla Detalle_Factura
+    (1, 1, 1, 100, '2024-01-20'),
+    (2, 2, 2, 75, '2024-03-20'),
+    (3, 8, 8, 50, '2022-03-20'),
+    (4, 4, 4, 120, '2023-03-20'),
+    (5, 5, 5, 200, '2023-05-20'),
+    (6, 5, 5, 80, '2024-07-22'),  # Nota: ID_Factura repetido para reflejar la misma factura con diferentes productos
+    (7, 8, 8, 40, '2021-03-10'),
+    (8, 8, 8, 150, '2019-12-20'), # Nota: ID_Factura repetido para reflejar la misma factura con diferentes productos
+    (9, 9, 9, 90, '2024-03-30'),
+    (10, 10, 10, 60, '2024-03-26')
 ]
 
-cursor.executemany('INSERT INTO Detalle_Factura VALUES (?,?,?,?)', detalle_factura)
+cursor.executemany('INSERT INTO Detalle_Factura VALUES (?,?,?,?,?)', detalle_factura)
 
 # Guardar los cambios y cerrar la conexión a la base de datos
 conn.commit()
